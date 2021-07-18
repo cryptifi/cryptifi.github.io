@@ -52,6 +52,15 @@
 		position: relative;
 }
 
+.mascot-laptop {
+	display: block;
+	width: 100% !important;
+	height: 100% !important;
+	max-width: 500px !important;
+	top: -40px !important;
+	position: relative;
+}
+
 .main-banner {
 	top: -180px;
     position: relative;
@@ -69,6 +78,9 @@
 }
 
 #partners {
+	background-color: #6F3E0F !important;
+}
+#whyus {
 	background-color: #6F3E0F !important;
 }
 
@@ -95,4 +107,22 @@
 .social-container {
 	top: -100px;
 	position: relative;
+}
+
+.btn-white {
+	border-color: white !important;
+	color: white !important;
+	background-color: transparent !important;
+}
+.btn-white-hover:hover {
+	background: white !important;
+	border-color: white !important;
+	color:#6F3E0F !important;
+}
+
+.white-text {
+	color: white;
+	font-size: 14pt;
+	font-weight: 400;
+	letter-spacing: 2px;
 }
