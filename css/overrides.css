@@ -1,5 +1,5 @@
 .secondary {
-	color: #FFF;
+	color: #f8dfbe;
 }
 .primary {
 	color: #6F3E0F;
@@ -89,6 +89,10 @@
 	padding: 150px 0px 100px;
 }
 
+#roadmap {
+	background-color: #f8dfbe;
+}
+
 #howToBuy .tab2-services-box {
 	border-radius: 30px !important;
 	border: 4px solid transparent;
@@ -109,19 +113,19 @@
 	position: relative;
 }
 
-.btn-white {
-	border-color: white !important;
-	color: white !important;
+.btn-secondary {
+	border-color: #f8dfbe !important;
+	color: #f8dfbe !important;
 	background-color: transparent !important;
 }
-.btn-white-hover:hover {
-	background: white !important;
-	border-color: white !important;
+.btn-secondary-hover:hover {
+	background: #f8dfbe !important;
+	border-color: #f8dfbe !important;
 	color:#6F3E0F !important;
 }
 
-.white-text {
-	color: white;
+.secondary-text {
+	color: #f8dfbe;
 	font-size: 14pt;
 	font-weight: 400;
 	letter-spacing: 2px;

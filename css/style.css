@@ -1270,9 +1270,7 @@ html[xmlns] .slides {
 /*-----------------------------------------------------------------*/
 
 
-#roadmap {
-	background:url(../images/backgrounds/background2.jpeg);
-}
+
 
 ul.timeline {
 	margin: 40px auto 0;
@@ -1308,7 +1306,7 @@ ul.timeline {
 	float: left;
 	padding: 20px;
 	width: 47.5%;
-	background: rgba(0, 0, 0, .7);
+	background: #6F3E0F;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
