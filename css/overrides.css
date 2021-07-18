@@ -40,6 +40,9 @@
 	margin-left: 16px;
 	margin-right: 16px;
 }
+.social-icons ul li a {
+	font-size: 32px !important;
+}
 
 .mascot-main {
 		display: block;
@@ -130,3 +133,17 @@
 	font-weight: 400;
 	letter-spacing: 2px;
 }
+
+.secondary-text-brown {
+	letter-spacing: 2px; 
+	color: #6F3E0F"
+}
+
+.timeline-text {
+	color: #f8dfbe;
+	font-size: 11pt;
+}
+.timeline-text li {
+	margin-bottom: 6px;
+}
+
