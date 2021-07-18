@@ -2,10 +2,10 @@
 	color: #FFF;
 }
 .primary {
-	color: #7EC13F;
+	color: #6F3E0F;
 }
 .background-primary {
-	background-color: #7EC13F;
+	background-color: #6F3E0F;
 }
 
 .micro {
@@ -22,11 +22,47 @@
 }
 
 .btn-green-hover:hover {
-	background:#7EC13F !important;
-	border-color: #7EC13F !important;
+	background:#6F3E0F !important;
+	border-color: #6F3E0F !important;
 	color:#FFF !important;
 }
 
 .primary-important {
-	color: #7EC13F !important;
+	color: #6F3E0F !important;
+}
+
+.mascot-main {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100% !important;
+		height: 100% !important;
+		max-width: 500px !important;
+		/* top: -180px; */
+		position: relative;
+}
+
+.main-banner {
+	top: -200px;
+    position: relative;
+}
+
+.main-banner a.btn {
+	width: 140px !important;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 0;
+}
+
+#home {
+	background-color: #f8dfbe;
+}
+
+#partners {
+	background-color: #6F3E0F !important;
+}
+
+#tokenomics {
+	background-color: #f8dfbe;
+	padding: 150px 0px 100px;
 }
