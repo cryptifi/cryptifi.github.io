@@ -31,6 +31,16 @@
 	color: #6F3E0F !important;
 }
 
+.social-icons {
+	text-align: center !important;
+}
+.main-banner .social-icons ul li a {
+	color: #6F3E0F !important;
+	font-size: 32px !important;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
 .mascot-main {
 		display: block;
 		margin-left: auto;
