@@ -40,8 +40,8 @@
 	margin-left: 16px;
 	margin-right: 16px;
 }
-.social-icons ul li a {
-	font-size: 32px !important;
+footer .social-icons ul li a {
+	font-size: 25px !important;
 }
 
 .mascot-main {
@@ -66,7 +66,6 @@
 }
 
 .main-banner {
-	top: -180px;
     position: relative;
 }
 
@@ -115,6 +114,7 @@
 .social-container {
 	top: -100px;
 	position: relative;
+	text-align: center;
 }
 
 .btn-secondary {
