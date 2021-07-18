@@ -1,0 +1,32 @@
+.secondary {
+	color: #FFF;
+}
+.primary {
+	color: #7EC13F;
+}
+.background-primary {
+	background-color: #7EC13F;
+}
+
+.micro {
+	font-size: 16px;
+	font-weight: 200;
+	margin: 30px 0px 0px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.fee-breakdown-figure {
+  font-weight: 800;
+  font-size: 80px;
+}
+
+.btn-green-hover:hover {
+	background:#7EC13F !important;
+	border-color: #7EC13F !important;
+	color:#FFF !important;
+}
+
+.primary-important {
+	color: #7EC13F !important;
+}
