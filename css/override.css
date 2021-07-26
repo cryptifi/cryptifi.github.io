@@ -1,12 +1,9 @@
-/* Main title */
 
 .home-content .home-content__main {
     text-align: center !important;
 }
 
-.home-content h1 {
-    color: #318080;
-}
+
 
 .home-content .main-title span {
     font-weight: 100 !important;
@@ -16,9 +13,9 @@
     width: 40%;
 }
 
-.home-content {
+/* .home-content {
     padding-top: 0 !important;
-}
+} */
 
 .home-content h3 {
     margin-top: 0;
@@ -28,6 +25,9 @@
     margin-top: 36px !important;
 }
 
+.primary {
+    color: #318080 !important;
+}
 .secondary {
     color: #6B6B6B !important;
 }
@@ -39,8 +39,10 @@
     width: 50px;
 }
 
-.header-nav-wrap {
+/* .header-nav-wrap {
     padding-left: 100px !important;
-}
+} */
 
-/* About section */
+#ecosystem {
+    padding-top: 0 !important;
+}

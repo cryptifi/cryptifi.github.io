@@ -1688,7 +1688,7 @@ input::-moz-focus-inner {
 }
 
 .s-header > .row {
-  max-width: 1600px;
+  max-width: 1300px;
   height: 78px;
   position: relative;
 }
@@ -2345,7 +2345,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:1600px) {
+@media only screen and (max-width:1300px) {
   .home-scroll__text {
     display: none;
   }
