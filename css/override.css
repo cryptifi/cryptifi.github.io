@@ -77,6 +77,14 @@ section {
     background-color: white !important;
 }
 
+#ecosystem, #partners, #platform, #about {
+    padding-top: 100px !important;
+}
+
+#about-how {
+    padding-bottom: 0 !important;
+}
+
 #ecosystem .col-block {
     margin-bottom: 20px !important;
 }
