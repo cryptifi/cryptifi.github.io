@@ -70,7 +70,7 @@
     var ssMobileMenu = function() {
 
         var toggleButton = $('.header-menu-toggle'),
-            nav = $('.header-nav-wrap, #platform');
+            nav = $('.header-nav-wrap, #platform, #lionomics');
 
         toggleButton.on('click', function(event){
             event.preventDefault();
