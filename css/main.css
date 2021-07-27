@@ -1695,8 +1695,8 @@ input::-moz-focus-inner {
 
 .s-header.sticky {
   background-color: #0e1113;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  /* -webkit-transition: all 0.3s ease-in-out; */
+  /* transition: all 0.3s ease-in-out; */
   position: fixed;
   top: 0;
 }

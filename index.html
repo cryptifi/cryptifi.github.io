@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/override.css">
+    <link rel="stylesheet" href="css/components.css">
 
     <!-- script
     ================================================== -->
@@ -47,7 +48,7 @@
 
     <!-- header 
     ================================================== -->
-    <header class="s-header">
+    <header class="s-header sticky">
 
         <div class="row">
             <div class="header-logo">
@@ -89,7 +90,10 @@
                     <img class="mascot-main" src="images/mascot/UniLion - Mascot Transparent.png"/>
 
                     <span class="main-title">
-                        <h1 class="primary"><span>Meet</span> UniLion</h1>
+                        <h1 class="primary">
+                            <span class="secondary-title">Meet</span> 
+                            UniLion
+                        </h1>
                     </span>
     
                     <h3 class="secondary">
@@ -120,7 +124,7 @@
     ================================================== -->
     <section id="about" class="s-about target-section">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h1 class="display-1 primary">
                     What is UniLion?
@@ -178,7 +182,7 @@
 
     <section id="ecosystem" class="target-section">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h1 class="display-1 primary">
                     UniLion Ecosystem
@@ -195,28 +199,9 @@
             </div>
         </div> <!-- end section-header -->
 
-    </section> <!-- end s-about -->
-
-    <!-- features
-    ================================================== -->
-    <section id="features" class="s-features target-section">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-1">
-                    Loaded With Features You Would Absolutely Love.
-                </h1>
-                <p class="lead">
-                    Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est. 
-                    Ut quis enim rerum quia assumenda repudiandae molestiae cumque qui. Amet repellat 
-                    omnis ea.
-                </p>
-            </div>
-        </div> <!-- end section-header -->
-
         <div class="row features block-1-3 block-m-1-2">
 
-            <div class="col-block item-feature" data-aos="fade-up">
+            <div class="col-block item-feature box-shadow" data-aos="fade-up">
                 <div class="item-feature__icon">
                     <i class="icon-upload"></i>
                 </div>
@@ -229,7 +214,7 @@
                 </div>
             </div>
 
-            <div class="col-block item-feature" data-aos="fade-up">
+            <div class="col-block item-feature box-shadow" data-aos="fade-up">
                 <div class="item-feature__icon">
                     <i class="icon-video-camera"></i>
                 </div>
@@ -242,7 +227,7 @@
                 </div>
             </div>
 
-            <div class="col-block item-feature" data-aos="fade-up">
+            <div class="col-block item-feature box-shadow" data-aos="fade-up">
                 <div class="item-feature__icon">
                     <i class="icon-shield"></i>
                 </div>  
@@ -254,13 +239,32 @@
                     </p>
                 </div>
             </div>
+        </div> <!-- end section-header -->
 
-            <div class="col-block item-feature" data-aos="fade-up">
+    </section> <!-- end s-about -->
+
+    <!-- features
+    ================================================== -->
+    <section id="platform" class="s-features target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1 primary">
+                    LionPax 
+                    <br/>
+                    <span class="secondary-title">The UniLion Platform</span>
+                </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row features img-text-right">
+
+            <div class="col-block item-feature box-shadow" data-aos="fade-up">
                 <div class="item-feature__icon">
-                    <i class="icon-lego-block"></i>
+                    <i class="icon-upload"></i>
                 </div>
                 <div class="item-feature__text">
-                    <h3 class="item-title">Play Games</h3>
+                    <h3 class="item-title">Cloud Based</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                     Sunt suscipit voluptas ipsa in tempora esse soluta sint.
@@ -268,25 +272,55 @@
                 </div>
             </div>
 
-            <div class="col-block item-feature" data-aos="fade-up">
+            <div class="col-block item-feature img-text-text" data-aos="fade-up">
+                <h1 class="display-1 primary-sm">
+                    Invest Collectively
+                </h1>
+                <div class="item-feature__text">
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                        Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                        Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+        </div> 
+
+        <div class="row features img-text-left">
+            <div class="col-block item-feature img-text-text" data-aos="fade-up">
+                <h1 class="display-1 primary-sm">
+                    Convert to NFTs
+                </h1>
+                <div class="item-feature__text">
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                        Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                        Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature box-shadow" data-aos="fade-up">
                 <div class="item-feature__icon">
-                    <i class="icon-chat"></i>
+                    <i class="icon-upload"></i>
                 </div>
                 <div class="item-feature__text">
-                    <h3 class="item-title">Group Chat</h3>
+                    <h3 class="item-title">Cloud Based</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                     Sunt suscipit voluptas ipsa in tempora esse soluta sint.
                     </p>
                 </div>
             </div>
-    
-            <div class="col-block item-feature" data-aos="fade-up">
+        </div>
+
+        <div class="row features img-text-right">
+
+            <div class="col-block item-feature box-shadow" data-aos="fade-up">
                 <div class="item-feature__icon">
-                    <i class="icon-wallet"></i>
+                    <i class="icon-upload"></i>
                 </div>
                 <div class="item-feature__text">
-                    <h3 class="item-title">Payments</h3>
+                    <h3 class="item-title">Cloud Based</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                     Sunt suscipit voluptas ipsa in tempora esse soluta sint.
@@ -294,7 +328,19 @@
                 </div>
             </div>
 
-        </div> <!-- end features -->
+            <div class="col-block item-feature img-text-text" data-aos="fade-up">
+                <h1 class="display-1 primary-sm">
+                    The Social
+                </h1>
+                <div class="item-feature__text">
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                        Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                        Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+        </div>
 
         <div class="testimonials-wrap" data-aos="fade-up">
 
