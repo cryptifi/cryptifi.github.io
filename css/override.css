@@ -108,7 +108,7 @@ section {
 /* for LHS text  */
 #platform .img-text-left .col-block:nth-child(1) {
     width: 50% !important;
-    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 #platform .img-text-left .col-block:nth-child(2) {
     width: 33.33% !important;
@@ -116,7 +116,7 @@ section {
 }
 #platform.mobile .img-text-left .col-block {
     width: auto !important;
-    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .img-text-text {
@@ -133,4 +133,9 @@ section {
 
 #partners .logos {
     padding-top: 50px !important;
+}
+
+#ecosystem .row img {
+    width: 50% !important;
+    padding-top: 25% !important;
 }
