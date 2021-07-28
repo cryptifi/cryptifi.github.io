@@ -143,6 +143,12 @@ section {
     padding-left: 10% !important;
 }
 
+#ecosystem .item-feature__text {
+    padding-top: 10% !important;
+    padding: 5% !important;
+}
+
+
 #partners .logos {
     padding-top: 50px !important;
 }
