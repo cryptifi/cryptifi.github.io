@@ -151,3 +151,8 @@ section {
     width: 50% !important;
     padding-top: 25% !important;
 }
+
+.video-bg {
+  background-image: url(../images/mascot/UniLion\ -\ Mascot-Rocket.png) !important;
+  border-radius: 7% !important;
+}
