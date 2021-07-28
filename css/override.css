@@ -52,7 +52,19 @@ section {
 
 #roadmap {
     padding-top: 100px !important;
-    padding-bottom: 100px !important;
+    /* padding-bottom: 100px !important; */
+}
+
+
+#partners .row.logos {
+    margin-bottom: 15% !important;
+}
+#partners.mobile .row.logos {
+    margin-top: 0 !important;
+    margin-bottom: 25% !important;
+}
+#partners.mobile .row .col-block {
+    margin-bottom: 8% !important;
 }
 
 #parters {
@@ -127,8 +139,8 @@ section {
 }
 
 #roadmap .item-feature__text {
-    padding-top: 50px !important;
-    padding-left: 10px !important;
+    padding-top: 10% !important;
+    padding-left: 10% !important;
 }
 
 #partners .logos {
