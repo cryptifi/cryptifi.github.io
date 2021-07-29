@@ -144,7 +144,12 @@ section {
 
 #partners .logos {
     padding-top: 50px !important;
+    
 }
+#partners .logos img {
+    width: 250px !important;
+}
+
 #partners.mobile .logos {
     padding-top: 0 !important;
 }
@@ -206,6 +211,18 @@ header, #home {
     display: none !important;
 }
 
+
+header.mobile .blue-banner {
+    display: none !important;
+}
+header.mobile .regular-banner {
+    display: inline-block !important;
+}
+
 p.lead {
     font-size: 2rem !important;
+}
+
+.go-top a, .go-top a:visited {
+    background-color: #092967 !important;
 }
