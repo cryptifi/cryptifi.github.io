@@ -190,6 +190,9 @@ header, #home {
     width: 40% !important;
 }
 
+.s-header .header-nav-wrap.mobile .header-main-nav li a {
+    color: white !important;
+}
 .s-header .header-nav-wrap .header-main-nav li a {
     color: #092967 !important;
 }
@@ -212,10 +215,13 @@ header, #home {
 }
 
 
-header.mobile .blue-banner {
+.site-logo.mobile .blue-banner {
     display: none !important;
 }
-header.mobile .regular-banner {
+.site-logo.mobile .regular-banner {
+    display: inline-block !important;
+}
+.site-logo {
     display: inline-block !important;
 }
 
