@@ -1934,7 +1934,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:800px) {
   .s-header {
-    background: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%);
+    background: rgba(34, 65, 125, 1);
     position: fixed;
     top: 0;
   }
@@ -1953,7 +1953,7 @@ input::-moz-focus-inner {
     display: none;
     height: auto;
     width: 100%;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%);
+    background: rgba(34, 65, 125, 1);
     padding: 64px 44px 72px;
     text-align: left;
     position: absolute;

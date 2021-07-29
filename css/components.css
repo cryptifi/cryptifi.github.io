@@ -5,6 +5,12 @@
     border-radius: 53px;
 }
 
+#platform .featured {
+    box-shadow: 0px 8px 12px rgba(34, 43, 61, 0.15);
+    border-radius: 53px;
+}
+
+
 #ecosystem .box-shadow {
     height: 800px;
 }

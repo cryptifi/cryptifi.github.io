@@ -124,6 +124,19 @@ section {
     margin-right: auto !important;
 }
 
+#platform.mobile .img-text-left.desktop {
+    display: none !important;
+}
+#platform.mobile .img-text-right.mobile {
+    display: inline-block !important;
+}
+#platform .img-text-left.desktop {
+    display: inline-block !important;
+}
+#platform .img-text-right.mobile {
+    display: none !important;
+}
+
 .img-text-text {
     text-align: left !important;
 }
