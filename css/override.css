@@ -55,20 +55,13 @@ section {
     /* padding-bottom: 100px !important; */
 }
 
-
-#partners .row.logos {
+#parters .last-row {
     margin-bottom: 15% !important;
-}
-#partners.mobile .row.logos {
-    margin-top: 0 !important;
-    margin-bottom: 25% !important;
-}
-#partners.mobile .row .col-block {
-    margin-bottom: 8% !important;
 }
 
 #parters {
     padding-top: 100px !important;
+    margin-bottom: 15% !important;
 }
 
 #roadmap .col-block {
@@ -151,6 +144,16 @@ section {
 
 #partners .logos {
     padding-top: 50px !important;
+}
+#partners.mobile .logos {
+    padding-top: 0 !important;
+}
+#partners .logos.last-row {
+    margin-top: 0 !important;
+    margin-bottom: 15% !important;
+}
+#partners .logos .col-block {
+    margin-bottom: 20px !important;
 }
 
 #ecosystem .row img {
