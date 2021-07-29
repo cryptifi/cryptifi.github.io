@@ -179,6 +179,47 @@ section {
     padding-top: 25% !important;
 }
 
+#ecosystem .col-block {
+    width: 28% !important;
+}
+#ecosystem .col-block:nth-child(1) {
+    margin-right: 6.5% !important;
+}
+#ecosystem .col-block:nth-child(2) {
+    margin-right: 6.5% !important;
+}
+
+#ecosystem.mobile .col-block {
+    width: auto !important;
+}
+#ecosystem.mobile .col-block:nth-child(1) {
+    margin-right: auto !important;
+}
+#ecosystem.mobile .col-block:nth-child(2) {
+    margin-right: auto !important;
+}
+
+
+#roadmap .col-block {
+    width: 28% !important;
+}
+#roadmap .col-block:nth-child(1) {
+    margin-right: 6.5% !important;
+}
+#roadmap .col-block:nth-child(2) {
+    margin-right: 6.5% !important;
+}
+
+#roadmap.mobile .col-block {
+    width: 100% !important;
+}
+#roadmap.mobile .col-block:nth-child(1) {
+    margin-right: auto !important;
+}
+#roadmap.mobile .col-block:nth-child(2) {
+    margin-right: auto !important;
+}
+
 .video-bg {
   background-image: url(../images/mascot/UniLion\ -\ Mascot-Rocket.png) !important;
   border-radius: 7% !important;
