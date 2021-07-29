@@ -49,7 +49,7 @@
 	text-align: center !important;
 }
 .social-icons ul li a {
-	color: #318080 !important;
+	color: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%) !important;
 	font-size: 32px !important;
 	margin-left: 16px;
 	margin-right: 16px;
@@ -57,3 +57,15 @@
 .social-icons ul li a {
 	font-size: 32px !important;
 }
+
+.test {
+    z-index: 100;
+    overflow: hidden;
+    height: 62.4rem;
+    margin-top: calc((62.4rem/2) * -1);
+    background-image: url(../images/mascot/UniLion\ -\ Mascot-Laptop\ Transparent.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+  }

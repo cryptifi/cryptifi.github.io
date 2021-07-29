@@ -1492,7 +1492,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 .lity-close:active::after,
 .lity-close:visited::before,
 .lity-close:visited::after {
-  background-color: #318080;
+  background-color: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%);
 }
 
 /* Image */

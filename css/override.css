@@ -18,36 +18,36 @@ section {
     margin-top: 0;
 }
 
+.home-content {
+    padding-top: 150px !important;
+}
+
 .home-content__btn-wrap {
     margin-top: 36px !important;
 }
 
 .primary {
-    color: #318080 !important;
+    color: rgba(34, 65, 125, 0.9) !important;
 }
 .primary-sm {
-    color: #318080 !important;
+    color: rgba(34, 65, 125, 0.9) !important;
     font-size: xx-large !important;
 }
 
 .secondary {
-    color: #6B6B6B !important;
+    color: white !important;
 }
 
 .s-header, .s-footer {
-    background-color: #318080 !important;
+    background-color: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%) !important;
 }
 .s-header .site-logo {
     width: 45px !important;
     height: 34px !important;
 }
 
-/* .header-nav-wrap {
-    padding-left: 100px !important;
-} */
-
 #platform {
-    padding-bottom: 0 !important;
+    padding-bottom: 100px !important;
 }
 
 #roadmap {
@@ -161,4 +161,48 @@ section {
 .video-bg {
   background-image: url(../images/mascot/UniLion\ -\ Mascot-Rocket.png) !important;
   border-radius: 7% !important;
+}
+
+#about, #lionomics, #footer {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%);
+}
+
+header.sticky {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%);
+}
+
+header, #home {
+    background: #F7F7F7;
+}
+
+#filler .mascot {
+    width: 20% !important;
+}
+#filler.mobile .mascot {
+    width: 40% !important;
+}
+
+.s-header .header-nav-wrap .header-main-nav li a {
+    color: #092967 !important;
+}
+.s-header.sticky .header-nav-wrap .header-main-nav li a {
+    color: white !important;
+}
+
+.s-header .regular-banner {
+    display: none !important;
+}
+.s-header.sticky .regular-banner {
+    display: inline-block !important;
+}
+
+.s-header .blue-banner {
+    display: inline-block !important;
+}
+.s-header.sticky .blue-banner {
+    display: none !important;
+}
+
+p.lead {
+    font-size: 2rem !important;
 }
