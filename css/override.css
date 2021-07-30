@@ -151,6 +151,10 @@ section {
     display: none !important;
 }
 
+.img-text-left .img-text-text {
+    text-align: right !important;
+}
+
 .img-text-text {
     text-align: left !important;
 }
