@@ -283,7 +283,7 @@ header, #home {
     color: #092967 !important;
 }
 .s-header .header-nav-wrap.mobile {
-    background: url(../images/background/grey_bg.jpg) center center fixed !important;
+    background: #C4C4C4 !important;
 }
 .s-header.sticky .header-nav-wrap.mobile {
     background: #092967 !important;
