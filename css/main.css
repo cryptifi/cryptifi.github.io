@@ -1934,7 +1934,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:800px) {
   .s-header {
-    background: rgba(34, 65, 125, 1);
+    background: #092967;
     position: fixed;
     top: 0;
   }
@@ -1953,7 +1953,7 @@ input::-moz-focus-inner {
     display: none;
     height: auto;
     width: 100%;
-    background: rgba(34, 65, 125, 1);
+    background: #092967;
     padding: 64px 44px 72px;
     text-align: left;
     position: absolute;
@@ -2757,7 +2757,6 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about-how {
-  background-color: #ffffff;
   padding-bottom: 16rem;
 }
 
@@ -2885,7 +2884,6 @@ html.no-csstransitions .home-content__main {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: #eaeaea;
   position: absolute;
   top: 0;
 }
@@ -3144,7 +3142,6 @@ html.no-csstransitions .home-content__main {
 .s-features {
   padding-top: 19.2rem;
   padding-bottom: 20rem;
-  background-color: #eaeaea;
   overflow: hidden;
   position: relative;
 }

@@ -88,14 +88,6 @@ section {
     padding-bottom: 100px !important;
 }
 
-#about, #lionomics {
-    background-color: white !important;
-}
-
-.s-features {
-    background-color: white !important;
-}
-
 #ecosystem, #partners, #platform, #about {
     padding-top: 100px !important;
 }
@@ -184,9 +176,12 @@ section {
 #partners.mobile .logos {
     padding-top: 0 !important;
 }
-#partners .logos.last-row {
+#partners.mobile .logos.last-row {
     margin-top: 0 !important;
     margin-bottom: 15% !important;
+}
+#partners .logos.last-row {
+    margin-bottom: 5% !important;
 }
 #partners .logos .col-block {
     margin-bottom: 20px !important;
@@ -243,12 +238,24 @@ section {
   border-radius: 4% !important;
 }
 
-#about, #lionomics, #footer {
-    background: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%);
+#about, #lionomics, #footer  {
+  background-image: url(../images/background/blue_bg.jpg) !important;
 }
 
+.bg-gray {
+    background: url(../images/background/grey_bg.jpg) no-repeat center center fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* #roadmap {
+    background-image: url(../images/background/grey_blue__half_bg.jpg) !important;
+} */
+
 header.sticky {
-    background: rgba(34, 65, 125, 1) !important;
+    background: #092967 !important;
 }
 
 header, #home {
@@ -266,7 +273,7 @@ header, #home {
     color: white !important;
 }
 .s-header .header-nav-wrap .header-main-nav li a {
-    color: rgba(34, 65, 125, 1) !important;
+    color: #092967 !important;
 }
 .s-header.sticky .header-nav-wrap .header-main-nav li a {
     color: white !important;
