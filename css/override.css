@@ -187,9 +187,19 @@ section {
     margin-bottom: 20px !important;
 }
 
-#ecosystem .row img {
+.pride-mascot, .mascot-rocket {
     width: 50% !important;
-    padding-top: 25% !important;
+}
+.mascot-rocket {
+    padding-top: 24% !important;
+}
+.pride-mascot {
+    padding-top: 16% !important;
+}
+
+.token-img {
+    padding-top: 30% !important;
+    width: 40% !important;
 }
 
 #ecosystem .col-block {
