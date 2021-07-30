@@ -6,10 +6,54 @@
 }
 
 #platform .featured {
+    text-align: center  ;
     box-shadow: 0px 8px 12px rgba(34, 43, 61, 0.15);
     border-radius: 53px;
 }
 
+#lionomics .box-shadow {
+    text-align: left;
+    height: 450px;
+    padding-top: 15%;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0px 8px 12px rgba(34, 43, 61, 0.85);
+	margin-bottom: 15px;
+}
+
+#lionomics .box-shadow-1 {
+	background-color: #49C5CD;
+}
+#lionomics .box-shadow-2 {
+	background-color: #F26823;
+}
+#lionomics .box-shadow-3 {
+    padding-top: 7.5%;
+	height: 300px;
+	background-color: #FDC270;
+}
+#lionomics .box-shadow-4 {
+	height: 350px;
+    padding-top: 7.5%;
+    box-shadow: none;
+	background-color: transparent;
+}
+
+#lionomics .box-shadow-3 {
+	width: 700px !important;
+}
+#lionomics .box-shadow-4 {
+    padding-right: 0px;
+    padding-left: 150px;
+}
+#lionomics.mobile .box-shadow-3 {
+	width: auto !important;
+}
+#lionomics.mobile .box-shadow-4 {
+	width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 #ecosystem .box-shadow {
     height: 800px;
