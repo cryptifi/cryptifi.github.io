@@ -120,3 +120,13 @@
     background-size: cover;
     position: relative;
   }
+
+.distribution {
+	display: inline-block !important;
+	margin-bottom: 30px !important;
+}
+
+.distribution h2 {
+	font-size: 100px !important;
+	color: white !important;
+}
