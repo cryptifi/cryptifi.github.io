@@ -1954,6 +1954,7 @@ input::-moz-focus-inner {
     height: auto;
     width: 100%;
     background: #092967;
+    
     padding: 64px 44px 72px;
     text-align: left;
     position: absolute;

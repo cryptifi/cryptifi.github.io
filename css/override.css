@@ -243,7 +243,7 @@ section {
 }
 
 .bg-gray {
-    background: url(../images/background/grey_bg.jpg) no-repeat center center fixed !important;
+    background: url(../images/background/grey_bg.jpg) center center fixed !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -269,7 +269,7 @@ header, #home {
     width: 40% !important;
 }
 
-.s-header .header-nav-wrap.mobile .header-main-nav li a {
+.s-header.sticky .header-nav-wrap.mobile .header-main-nav li a {
     color: white !important;
 }
 .s-header .header-nav-wrap .header-main-nav li a {
@@ -277,6 +277,16 @@ header, #home {
 }
 .s-header.sticky .header-nav-wrap .header-main-nav li a {
     color: white !important;
+}
+
+.s-header .header-nav-wrap.mobile .header-main-nav li a {
+    color: #092967 !important;
+}
+.s-header .header-nav-wrap.mobile {
+    background: url(../images/background/grey_bg.jpg) center center fixed !important;
+}
+.s-header.sticky .header-nav-wrap.mobile {
+    background: #092967 !important;
 }
 
 .s-header .regular-banner {
@@ -293,6 +303,20 @@ header, #home {
     display: none !important;
 }
 
+.s-header {
+  background-image: url(../images/background/nav-bg.png) !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#home {
+  background-image: url(../images/background/home-bg.png) !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .site-logo.mobile .blue-banner {
     display: none !important;
