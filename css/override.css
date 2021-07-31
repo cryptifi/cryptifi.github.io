@@ -95,6 +95,9 @@ section {
 #about-how {
     padding-bottom: 0 !important;
 }
+#footer {
+    padding-top: 45px !important;
+}
 
 #ecosystem .col-block {
     margin-bottom: 20px !important;
