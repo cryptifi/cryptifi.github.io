@@ -2113,7 +2113,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__left {
-  width: calc(100% - (580px + 80px));
+  width: calc(100% - (600px + 80px));
 }
 
 .home-content__right {

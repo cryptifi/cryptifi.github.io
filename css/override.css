@@ -19,10 +19,12 @@ section {
 /* #home:not(.mobile) .home-content {
     padding-top: 200px !important;
 }  */
-
 #home:not(.mobile) .home-content__right {
-    width: 110% !important;
-    right: -30% !important;
+    width: 95% !important;
+    right: -25% !important;
+}
+#home:not(.mobile) .home-content__left {
+    width: 35% !important;
 }
 #home:not(.mobile) .home-content {
     padding-top: 0 !important;
@@ -39,7 +41,7 @@ section {
 }
 
 .mascot-main {
-    width: 40%;
+    width: 55%;
 }
 
 .home-content h3 {
