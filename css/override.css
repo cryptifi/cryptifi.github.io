@@ -16,6 +16,24 @@ section {
     text-align: center !important;
 }
 
+/* #home:not(.mobile) .home-content {
+    padding-top: 200px !important;
+}  */
+
+#home:not(.mobile) .home-content__right {
+    width: 110% !important;
+    right: -30% !important;
+}
+#home:not(.mobile) .home-content {
+    padding-top: 0 !important;
+}
+#home:not(.mobile) .home-content__main {
+    padding-bottom: 40px !important;
+}
+.home-content {
+    padding-top: 150px !important;
+}
+
 .secondary-title {
     font-weight: 100 !important;
 }
@@ -28,9 +46,7 @@ section {
     margin-top: 0;
 }
 
-.home-content {
-    padding-top: 150px !important;
-}
+
 
 .home-content__btn-wrap {
     margin-top: 36px !important;
@@ -90,6 +106,10 @@ section {
 
 #ecosystem, #partners, #platform, #about {
     padding-top: 100px !important;
+}
+
+#about:not(.mobile) {
+    padding-top: 140px !important;
 }
 
 #about-how {
@@ -348,3 +368,4 @@ p.lead {
 .go-top a, .go-top a:visited {
     background-color: #092967 !important;
 }
+
