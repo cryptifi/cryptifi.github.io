@@ -21,7 +21,7 @@ section {
 }  */
 #home:not(.mobile) .home-content__right {
     width: 95% !important;
-    right: -25% !important;
+    right: -250px !important;
 }
 #home:not(.mobile) .home-content__left {
     width: 35% !important;
@@ -51,7 +51,7 @@ section {
 
 
 .home-content__btn-wrap {
-    margin-top: 36px !important;
+    margin-top: 18px !important;
 }
 
 .primary {
@@ -378,5 +378,9 @@ p.lead {
 
 .go-top a, .go-top a:visited {
     background-color: #092967 !important;
+}
+
+.main-title .primary {
+    padding-top: 0 !important;
 }
 
