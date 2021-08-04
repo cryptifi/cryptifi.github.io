@@ -2518,7 +2518,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__right {
-    width: 480px;
+    width: 500px;
   }
 
 }
@@ -2555,7 +2555,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__right {
-    width: 400px;
+    width: 500px;
     margin-top: -36rem;
   }
 
@@ -2579,7 +2579,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__right {
-    width: 360px;
+    width: 500px;
     margin-top: -28rem;
   }
 
@@ -2601,7 +2601,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__right {
-    width: 300px;
+    width: 400px;
     margin-top: -24rem;
   }
 
@@ -2613,7 +2613,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:350px) {
   .home-content__right {
-    width: 280px;
+    width: 400px;
   }
 
 }
