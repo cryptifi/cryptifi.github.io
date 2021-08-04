@@ -109,7 +109,8 @@ Array.from(links).forEach(link => {
     var ssMobileMenu = function() {
 
         var toggleButton = $('.header-menu-toggle'),
-            nav = $('#footer, #home, #about, .site-logo, .header-nav-wrap, #platform, #lionomics, #partners, #ecosystem, #filler, #roadmap');
+            nav = $('.header-nav-wrap'),
+            els = $('#footer, #home, #about, .site-logo, #platform, #lionomics, #partners, #ecosystem, #filler, #roadmap');
 
         toggleButton.on('click', function(event){
             event.preventDefault();
@@ -118,11 +119,20 @@ Array.from(links).forEach(link => {
             nav.slideToggle();
         });
 
-        if (toggleButton.is(':visible')) nav.addClass('mobile');
+        if (toggleButton.is(':visible')) {
+            nav.addClass('mobile');
+            els.addClass('mobile');
+        }
 
         $WIN.on('resize', function() {
-            if (toggleButton.is(':visible')) nav.addClass('mobile');
-            else nav.removeClass('mobile');
+            if (toggleButton.is(':visible')) {
+                els.addClass('mobile');
+                nav.addClass('mobile');
+            }
+            else {
+                els.removeClass('mobile');
+                nav.removeClass('mobile');
+            }
         });
 
         nav.find('a').on("click", function() {
@@ -241,9 +251,9 @@ Array.from(links).forEach(link => {
             }, cfg.scrollDuration, 'swing').promise().done(function () {
 
                 // check if menu is open
-                // if ($('body').hasClass('menu-is-open')) {
-                //     $('.header-menu-toggle').trigger('click');
-                // }
+                if ($('body').hasClass('menu-is-open')) {
+                    $('.header-menu-toggle').trigger('click');
+                }
 
                 window.location.hash = target;
             });
