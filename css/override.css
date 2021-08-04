@@ -328,6 +328,10 @@ header, #home {
     color: white !important;
 }
 
+.s-header .header-nav-wrap .header-main-nav li a:hover {
+    color: #49C5CD !important;
+}
+
 .s-header .header-nav-wrap.mobile .header-main-nav li a {
     color: #092967 !important;
 }
