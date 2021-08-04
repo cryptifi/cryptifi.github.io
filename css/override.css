@@ -119,6 +119,10 @@ section {
 }
 #footer {
     padding-top: 45px !important;
+    top: -25% !important;
+}
+#footer.mobile {
+    top: -10% !important;
 }
 
 #ecosystem .col-block {
@@ -130,12 +134,12 @@ section {
 
 /* for RHS text */
 #platform .img-text-right .col-block:nth-child(1) {
-    width: 33.33% !important;
+    width: 50% !important;
     margin-bottom: 20px !important;
 }
 #platform .img-text-right .col-block:nth-child(2) {
-    width: 50% !important;
-    margin-left: 10% !important;
+    width: 45% !important;
+    margin-left: 5% !important;
 }
 #platform.mobile .img-text-right .col-block {
     width: auto !important;
@@ -143,17 +147,22 @@ section {
 }
 /* for LHS text  */
 #platform .img-text-left .col-block:nth-child(1) {
-    width: 50% !important;
-    margin-right: 10% !important;
+    width: 45% !important;
+    margin-right: 5% !important;
 }
 #platform .img-text-left .col-block:nth-child(2) {
-    width: 33.33% !important;
+    width: 50% !important;
     margin-bottom: 20px !important;
 }
 #platform.mobile .img-text-left .col-block {
     width: auto !important;
     margin-right: auto !important;
 }
+
+.invest-text:not(.mobile), 
+.social-text:not(.mobile) {
+    padding-top: 4%;
+} 
 
 #platform.mobile .img-text-left.desktop {
     display: none !important;

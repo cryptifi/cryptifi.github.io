@@ -109,7 +109,7 @@ Array.from(links).forEach(link => {
     var ssMobileMenu = function() {
 
         var toggleButton = $('.header-menu-toggle'),
-            nav = $('#home, #about, .site-logo, .header-nav-wrap, #platform, #lionomics, #partners, #ecosystem, #filler, #roadmap');
+            nav = $('#footer, #home, #about, .site-logo, .header-nav-wrap, #platform, #lionomics, #partners, #ecosystem, #filler, #roadmap');
 
         toggleButton.on('click', function(event){
             event.preventDefault();
