@@ -22,6 +22,7 @@ section {
 #home:not(.mobile) .home-content__right {
     width: 95% !important;
     right: -250px !important;
+    top: -10% !important;
 }
 #home:not(.mobile) .home-content__left {
     width: 35% !important;
@@ -51,7 +52,7 @@ section {
 
 
 .home-content__btn-wrap {
-    margin-top: 18px !important;
+    margin-top:36px !important;
 }
 
 .primary {
@@ -127,7 +128,7 @@ section {
     top: -25% !important;
 }
 #footer.mobile {
-    top: -10% !important;
+    top: -5% !important;
 }
 
 #ecosystem .col-block {
