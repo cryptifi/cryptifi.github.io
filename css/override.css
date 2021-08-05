@@ -20,9 +20,9 @@ section {
     padding-top: 200px !important;
 }  */
 #home:not(.mobile) .home-content__right {
-    width: 95% !important;
-    right: -250px !important;
-    top: -10% !important;
+    width: 80% !important;
+    right: -180px !important;
+    top: -4% !important;
 }
 #home:not(.mobile) .home-content__left {
     width: 35% !important;
