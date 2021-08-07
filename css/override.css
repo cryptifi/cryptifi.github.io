@@ -284,7 +284,7 @@ section {
 }
 
 .video-bg {
-  background-image: url(https://unilion-resources.s3.ap-southeast-2.amazonaws.com/product.gif) !important;
+  background-image: url(../gifs/product.gif) !important;
   padding-bottom: 900px !important;
 }
 
