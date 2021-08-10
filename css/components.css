@@ -1,0 +1,198 @@
+.box-shadow {
+    text-align: center  ;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(34, 43, 61, 0.15);
+    border-radius: 53px;
+}
+
+#platform .featured {
+    text-align: center  ;
+    box-shadow: 0px 8px 12px rgba(34, 43, 61, 0.15);
+    border-radius: 53px;
+}
+
+#lionomics .box-shadow {
+    text-align: left;
+    height: 450px;
+    padding-top: 15%;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0px 8px 12px rgba(34, 43, 61, 0.85);
+	margin-bottom: 15px;
+}
+
+#lionomics .box-shadow-1 {
+	background-color: #49C5CD;
+}
+#lionomics .box-shadow-2 {
+	background-color: #F26823;
+}
+#lionomics .box-shadow-3 {
+    padding-top: 7.5%;
+	height: 300px;
+	background-color: #FDC270;
+}
+#lionomics .box-shadow-4 {
+	height: 350px;
+    padding-top: 7.5%;
+    box-shadow: none;
+	background-color: transparent;
+}
+
+#lionomics .box-shadow-3 {
+	width: 700px !important;
+}
+#lionomics .box-shadow-4 {
+    padding-right: 0px;
+    padding-left: 150px;
+}
+#lionomics.mobile .box-shadow-3 {
+	width: auto !important;
+    height: 400px;
+}
+#lionomics.mobile .box-shadow-4 {
+	width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#ecosystem .box-shadow {
+    height: 800px;
+}
+
+.social-icons {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-align:right;
+}
+
+.social-icons ul {
+	margin:0px;
+	padding:0px;
+}
+
+.social-icons ul li {
+	list-style:none;
+	display:inline-block;
+}
+
+.social-icons ul li a {
+	color: #A7A4A4;
+	margin-right:10px;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons ul li a:hover {
+	color: #49C5CD !important;
+}
+
+.social-icons {
+	text-align: center !important;
+}
+.social-icons ul li a {
+	color: rgba(34, 65, 125, 0.9) !important;
+	font-size: 32px !important;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.social-icons ul li a {
+	font-size: 32px !important;
+}
+
+.test {
+    z-index: 100;
+    overflow: hidden;
+    height: 62.4rem;
+    margin-top: calc((62.4rem/2) * -1);
+    background-image: url(../images/mascot/UniLion\ -\ Mascot-Laptop\ Transparent.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+  }
+
+.distribution {
+	display: inline-block !important;
+	margin-bottom: 30px !important;
+}
+
+.distribution h2 {
+	font-size: 100px !important;
+	color: white !important;
+}
+
+.icon-wallet {
+	width: 40px !important;
+}
+
+.copy-click {
+	position: relative;
+	padding-bottom: 2px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #484848;
+	transition: background-color calc(var(--duration) * 2) var(--ease);
+  }
+  .copy-click:after {
+	content: attr(data-tooltip-text);
+	position: absolute;
+	bottom: calc(100% + 6px);
+	left: 50%;
+	padding: 8px 16px;
+	white-space: nowrap;
+	background-color: #49C5CD;
+	border-radius: 4px;
+	box-shadow: 0 0 0 -12px rgba(0, 0, 0, 0);
+	pointer-events: none;
+	-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+	opacity: 0;
+	transform: translate(-50%, 12px);
+	transition: box-shadow calc(var(--duration) / 1.5) var(--bounce), opacity calc(var(--duration) / 1.5) var(--bounce), transform calc(var(--duration) / 1.5) var(--bounce);
+  }
+  .copy-click.is-hovered:after {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	opacity: 1;
+	transform: translate(-50%, 0);
+	transition-timing-function: var(--ease);
+  }
+  .copy-click.is-copied:after {
+	content: attr(data-tooltip-text-copied);
+  }
+
+  /* custom scrollbar */
+  /* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+body::-webkit-scrollbar {
+    background-color: #EDEDED;
+    width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #EDEDED;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+    display:none;
+}

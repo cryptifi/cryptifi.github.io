@@ -1,0 +1,236 @@
+
+  .box__ball {
+	width: 200px;
+	height:200px;
+	margin: auto;
+	position: relative;
+	animation: bounce 0.5s cubic-bezier(0.99, 0, 0.76, 0.86) infinite alternate;
+  }
+  
+  .ball {
+	position: absolute;
+	left: 40px;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/mascot/token-2.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	animation: ball__scale 0.5s linear infinite alternate;
+  }
+  
+  .ball-shadow {
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 50px;
+	width: 150px;
+	background: #343622;
+	border-radius: 100%;
+	z-index: -1;
+	opacity: 0.8;
+	animation: shadow 0.5s cubic-bezier(0.99, 0, 0.76, 0.86) infinite alternate;
+  }
+  
+  .ball-wind {
+	position: absolute;
+	top: 280px;
+	left: 51%;
+	transform: translateX(-50%);
+	width: 150px;
+	height: 200px;
+	text-align: center;
+  }
+  .ball-wind .v-line-mask {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 8px;
+	height: 150px;
+	border-radius: 10px;
+	display: inline-block;
+	overflow: hidden;
+  }
+  .ball-wind .v-line-mask:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	background: #ffffff;
+	animation: wind 1s ease infinite;
+	animation-delay: 0.3s;
+	border-radius: 10px;
+  }
+  .ball-wind .v-line-mask:nth-child(1) {
+	left: 20%;
+  }
+  .ball-wind .v-line-mask:nth-child(2) {
+	transform: translate(-50%, -30px);
+  }
+  .ball-wind .v-line-mask:nth-child(3) {
+	left: 80%;
+  }
+  .ball-wind .line-mask {
+	position: absolute;
+	width: 15px;
+	height: 50px;
+	border-radius: 10px;
+	overflow: hidden;
+	top: 130px;
+  }
+  .ball-wind .line-mask:after {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: -150%;
+	left: 0;
+	border-radius: 10px;
+	background: #ffffff;
+	opacity: 0;
+	animation: wind__2 1s ease-in-out infinite;
+	animation-delay: 0.5s;
+  }
+  .ball-wind .line-mask.l {
+	transform: rotate(-65deg);
+	left: -120px;
+  }
+  .ball-wind .line-mask.r {
+	transform: rotate(65deg);
+	right: -120px;
+  }
+  .ball-wind .line-mask:nth-child(6).l {
+	top: 90px;
+	left: -50px;
+  }
+  .ball-wind .line-mask:nth-child(4).r {
+	top: 90px;
+	right: -50px;
+  }
+  
+  @keyframes mouth {
+	0% {
+	  top: 35%;
+	}
+	45% {
+	  top: -25%;
+	}
+	50% {
+	  top: -25%;
+	  opacity: 0;
+	}
+	51% {
+	  top: 120%;
+	  opacity: 0;
+	}
+	52% {
+	  top: 120%;
+	  opacity: 1;
+	  transform: translate(-50%, -50%) scale(1, 0);
+	}
+	99% {
+	  top: 35%;
+	  opacity: 1;
+	  transform: translate(-50%, -50%) scale(1);
+	}
+	100% {
+	  top: 35%;
+	}
+  }
+  @keyframes eyes {
+	0% {
+	  top: 15%;
+	}
+	45% {
+	  top: 5%;
+	}
+	50% {
+	  top: 5%;
+	  opacity: 0;
+	}
+	51% {
+	  top: 100%;
+	  opacity: 0;
+	}
+	52% {
+	  top: 100%;
+	  opacity: 1;
+	}
+	99% {
+	  top: 15%;
+	  opacity: 1;
+	}
+	100% {
+	  top: 15%;
+	}
+  }
+  @keyframes shadow {
+	from {
+	  transform: translateX(-50%) scale(0.2);
+	  opacity: 0.2;
+	}
+	to {
+	  transform: translateX(-50%) scale(1);
+	  opacity: 0.8;
+	}
+  }
+  @keyframes wind__2 {
+	0% {
+	  top: 0%;
+	  opacity: 1;
+	}
+	50% {
+	  top: -150%;
+	  opacity: 0;
+	}
+	100% {
+	  top: -150%;
+	  opacity: 0;
+	}
+  }
+  @keyframes wind {
+	0% {
+	  top: 100%;
+	}
+	20% {
+	  top: 100%;
+	}
+	80% {
+	  top: -350px;
+	  height: 300px;
+	}
+	100% {
+	  top: -350px;
+	  height: 300px;
+	}
+  }
+  @keyframes bounce {
+	from {
+	  transform: translateY(120px);
+	}
+	to {
+	  transform: translateY(350px);
+	}
+  }
+  @keyframes ball__scale {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(0.9, 1);
+	}
+	80% {
+	  transform: scale(0.9, 1);
+	  border-bottom-left-radius: 100%;
+	  border-bottom-right-radius: 100%;
+	}
+	100% {
+	  transform: scale(1, 0.7);
+	  border-bottom-left-radius: 80%;
+	  border-bottom-right-radius: 80%;
+	}
+  }

@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body, #ecosystem {
+    font-family: 'Poppins' !important;
+}
+
+h1, h2, h3, h4, p, div, span, a {
+    font-family: 'Poppins' !important;
+}
+
+section {
+    text-align: center !important;
+}
+
+.home-content .home-content__main {
+    text-align: center !important;
+}
+
+/* #home:not(.mobile) .home-content {
+    padding-top: 200px !important;
+}  */
+#home:not(.mobile) .home-content__right {
+    width: 80% !important;
+    right: -180px !important;
+    top: -4% !important;
+}
+#home:not(.mobile) .home-content__left {
+    width: 35% !important;
+}
+#home:not(.mobile) .home-content {
+    padding-top: 0 !important;
+}
+#home:not(.mobile) .home-content__main {
+    padding-bottom: 40px !important;
+}
+.home-content {
+    padding-top: 150px !important;
+}
+
+.secondary-title {
+    font-weight: 100 !important;
+}
+
+.mascot-main {
+    width: 45%;
+}
+
+.home-content h3 {
+    margin-top: 0;
+}
+
+
+
+.home-content__btn-wrap {
+    margin-top:36px !important;
+}
+
+.primary {
+    color: rgba(34, 65, 125, 0.9) !important;
+}
+.primary-sm {
+    color: rgba(34, 65, 125, 0.9) !important;
+    font-size: xx-large !important;
+}
+
+.secondary {
+    color: white !important;
+}
+
+.gray {
+    color: #393939 !important;
+}
+
+.s-header, .s-footer {
+    background-color: radial-gradient(50% 50% at 50% 50%, rgba(34, 65, 125, 0.9) 0%, rgba(9, 41, 103, 0.9) 100%) !important;
+}
+.s-header .site-logo {
+    width: 45px !important;
+    height: 34px !important;
+}
+
+#platform {
+    padding-bottom: 100px !important;
+}
+
+#roadmap {
+    padding-top: 100px !important;
+    /* padding-bottom: 100px !important; */
+}
+
+#parters .last-row {
+    margin-bottom: 15% !important;
+}
+
+#parters {
+    padding-top: 100px !important;
+    margin-bottom: 15% !important;
+}
+
+#roadmap .col-block {
+    height: 550px;
+    line-height: 2;
+}
+
+#lionomics {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#lionomics:not(.mobile) .mid-col-tax {
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+}
+
+#ecosystem, #partners, #platform, #about {
+    padding-top: 100px !important;
+}
+
+#about:not(.mobile) {
+    padding-top: 140px !important;
+}
+
+#about-how {
+    padding-bottom: 0 !important;
+}
+#footer {
+    padding-top: 45px !important;
+    top: -25% !important;
+}
+#footer.mobile {
+    top: -5% !important;
+}
+
+#ecosystem .col-block {
+    margin-bottom: 20px !important;
+}
+#roadmap .col-block {
+    margin-bottom: 20px !important;
+}
+
+/* for RHS text */
+#platform .img-text-right .col-block:nth-child(1) {
+    width: 50% !important;
+    margin-bottom: 20px !important;
+}
+#platform .img-text-right .col-block:nth-child(2) {
+    width: 45% !important;
+    margin-left: 5% !important;
+}
+#platform.mobile .img-text-right .col-block {
+    width: auto !important;
+    margin-left: auto !important;
+}
+/* for LHS text  */
+#platform .img-text-left .col-block:nth-child(1) {
+    width: 45% !important;
+    margin-right: 5% !important;
+}
+#platform .img-text-left .col-block:nth-child(2) {
+    width: 50% !important;
+    margin-bottom: 20px !important;
+}
+#platform.mobile .img-text-left .col-block {
+    width: auto !important;
+    margin-right: auto !important;
+}
+
+.invest-text:not(.mobile), 
+.social-text:not(.mobile) {
+    padding-top: 4%;
+} 
+
+#platform.mobile .img-text-left.desktop {
+    display: none !important;
+}
+#platform.mobile .img-text-right.mobile {
+    display: inline-block !important;
+}
+#platform .img-text-left.desktop {
+    display: inline-block !important;
+}
+#platform .img-text-right.mobile {
+    display: none !important;
+}
+
+.img-text-left .img-text-text {
+    text-align: right !important;
+}
+
+.img-text-text {
+    text-align: left !important;
+}
+.mobile .img-text-text {
+    text-align: center !important;
+}
+
+#roadmap .item-feature__text {
+    padding-top: 10% !important;
+    padding-left: 10% !important;
+}
+
+#ecosystem .item-feature__text {
+    padding-top: 10% !important;
+    padding: 5% !important;
+}
+
+
+#partners .logos {
+    padding-top: 50px !important;
+    
+}
+#partners .logos img {
+    width: 250px !important;
+}
+
+#partners.mobile .logos {
+    padding-top: 0 !important;
+}
+#partners.mobile .logos.last-row {
+    margin-top: 0 !important;
+    margin-bottom: 15% !important;
+}
+#partners .logos.last-row {
+    margin-bottom: 5% !important;
+}
+#partners .logos .col-block {
+    margin-bottom: 20px !important;
+}
+
+.pride-mascot, .mascot-rocket {
+    width: 50% !important;
+}
+.mascot-rocket {
+    padding-top: 24% !important;
+}
+.pride-mascot {
+    padding-top: 16% !important;
+}
+
+.token-img {
+    padding-top: 30% !important;
+    width: 40% !important;
+}
+
+#ecosystem .col-block {
+    width: 28% !important;
+}
+#ecosystem .col-block:nth-child(1) {
+    margin-right: 6.5% !important;
+}
+#ecosystem .col-block:nth-child(2) {
+    margin-right: 6.5% !important;
+}
+
+#ecosystem.mobile .col-block {
+    width: auto !important;
+}
+#ecosystem.mobile .col-block:nth-child(1) {
+    margin-right: auto !important;
+}
+#ecosystem.mobile .col-block:nth-child(2) {
+    margin-right: auto !important;
+}
+
+
+#roadmap .col-block {
+    width: 28% !important;
+}
+#roadmap .col-block:nth-child(1) {
+    margin-right: 6.5% !important;
+}
+#roadmap .col-block:nth-child(2) {
+    margin-right: 6.5% !important;
+}
+
+#roadmap.mobile .col-block {
+    width: 100% !important;
+}
+#roadmap.mobile .col-block:nth-child(1) {
+    margin-right: auto !important;
+}
+#roadmap.mobile .col-block:nth-child(2) {
+    margin-right: auto !important;
+}
+
+.video-bg {
+  background-image: url(../gifs/product.gif) !important;
+  padding-bottom: 900px !important;
+}
+
+.video-bg:not(.mobile) {
+    padding-bottom: 900px !important;
+}
+
+  
+#about, #lionomics, #footer  {
+  background-image: url(../images/background/blue_bg.jpg) !important;
+}
+
+.bg-gray {
+    background: url(../images/background/grey_bg.jpg) center center fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* #roadmap {
+    background-image: url(../images/background/grey_blue__half_bg.jpg) !important;
+} */
+
+header.sticky {
+    background: #092967 !important;
+}
+
+header, #home {
+    background: #F7F7F7;
+}
+
+#filler .mascot {
+    width: 20% !important;
+}
+#filler.mobile .mascot {
+    width: 40% !important;
+}
+
+.s-header.sticky .header-nav-wrap.mobile .header-main-nav li a {
+    color: white !important;
+}
+.s-header .header-nav-wrap .header-main-nav li a {
+    color: #092967 !important;
+}
+.s-header.sticky .header-nav-wrap .header-main-nav li a {
+    color: white !important;
+}
+
+.s-header .header-nav-wrap .header-main-nav li a:hover {
+    color: #49C5CD !important;
+}
+
+.s-header .header-nav-wrap.mobile .header-main-nav li a {
+    color: #092967 !important;
+}
+.s-header .header-nav-wrap.mobile {
+    background: #C4C4C4 !important;
+}
+.s-header.sticky .header-nav-wrap.mobile {
+    background: #092967 !important;
+}
+
+.s-header .regular-banner {
+    display: none !important;
+}
+.s-header.sticky .regular-banner {
+    display: inline-block !important;
+}
+
+.s-header .blue-banner {
+    display: inline-block !important;
+}
+.s-header.sticky .blue-banner {
+    display: none !important;
+}
+
+.s-header {
+  background-image: url(../images/background/nav-bg.png) !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#home {
+  background-image: url(../images/background/home-bg.png) !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.site-logo.mobile .blue-banner {
+    display: none !important;
+}
+.site-logo.mobile .regular-banner {
+    display: inline-block !important;
+}
+.site-logo {
+    display: inline-block !important;
+}
+
+p.lead {
+    font-size: 2rem !important;
+}
+
+.go-top a, .go-top a:visited {
+    background-color: #092967 !important;
+}
+
+.main-title .primary {
+    padding-top: 0 !important;
+}
+
