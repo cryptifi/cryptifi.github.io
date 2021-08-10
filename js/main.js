@@ -77,20 +77,22 @@
 		elem.addClass('countdownHolder');
 
 		// Creating the markup inside the container
-		$.each(['Days','Hours','Minutes','Seconds'],function(i){
+		$.each(['Days','Hours','Minutes'],function(i){
 			$('<span class="count'+this+'">').html(
 				'<span class="position">\
 					<span class="digit static">0</span>\
 				</span>\
 				<span class="position">\
 					<span class="digit static">0</span>\
-				</span>'
+				</span></span>'
 			).appendTo(elem);
 			
 			if(this!="Seconds"){
 				elem.append('<span class="countDiv countDiv'+i+'"></span>');
 			}
 		});
+
+		$('.countDiv.countDiv2').remove();
 
 	}
 
@@ -139,7 +141,6 @@
 
 // other one
 $(function(){
-	
 	var note = $('#note'),
 		ts = new Date(2021, 7, 22),
 		newYear = true;

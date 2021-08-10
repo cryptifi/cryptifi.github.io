@@ -295,6 +295,11 @@ section {
   
 #about, #lionomics, #footer  {
   background-image: url(../images/background/blue_bg.jpg) !important;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .bg-gray {
