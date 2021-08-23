@@ -24,52 +24,697 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/etlinefont.css">
-    <link rel="stylesheet" href="css/countdown.css">
 
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+</head>
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <header class="s-header">
+
+        <div class="row">
+            <div class="header-logo">
+                <a class="site-logo" href="index.html">
+                    <img class="regular-banner" src="images/mascot/banner-logo.png" alt="Homepage">
+                    <img class="blue-banner" src="images/mascot/banner-logo-blue.png" alt="Homepage">
+                </a>
+            </div>
+
+            <nav class="header-nav-wrap">
+                <ul class="header-main-nav">
+                    <li class="current"><a class="smoothscroll" href="#top" title="intro">HOME</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">ABOUT</a></li>
+                    <li><a class="smoothscroll" href="#ecosystem" title="ecosystem">ECOSYSTEM</a></li>
+                    <li><a class="smoothscroll" href="#platform" title="lionpax">LIONPAX</a></li>
+                    <li><a class="smoothscroll" href="#lionomics" title="lionomics">LIONOMICS</a></li>
+                    <li><a class="smoothscroll" href="#roadmap" title="roadmap">ROADMAP</a></li>
+                    <li><a class="smoothscroll" href="#partners" title="partners">PARTNERS</a></li>
+                </ul>
+
+                <div class="header-cta">
+                    <a href="https://unilion-resources.s3.ap-southeast-2.amazonaws.com/UniLion_Whitepaper_v1.pdf" target="_blank" class="header-whitepaper-btn btn btn--primary header-cta__btn">Whitepaper</a>
+                    <a href="https://t.me/officialunilion" target="_blank" class="btn btn--primary header-cta__btn">Presale</a>
+                </div>
+
+            </nav> <!-- end header-nav-wrap -->
+
+            <a class="header-menu-toggle"><span>Menu</span></a>
+        </div>
+
+    </header>
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-natural-width=3000
+        data-natural-height=2000 data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+                <div class="home-content__left">
+                    <img class="mascot-main desktop-view" src="images/mascot/UniLion - Mascot Transparent.png" />
+                    <img class="mobile-view" src="images/mascot/mascot-main-mobile.png" />
+
+                    <span class="main-title">
+                        <h1 class="primary">
+                            <span class="secondary-title">Meet</span>
+                            UniLion
+                        </h1>
+                    </span>
+
+                    <h3 class="primary" style="font-size: 18px">
+                        <span class="desktop-view">A Hyper Reflectionary Token to power</span>
+                        <span class="mobile-view">A Hyper Reflectionary Token  <div>to power</div></span>
+                        <br />
+                        <div class="shared-ownership" style="font-weight: 900;">The Shared Ownership Model</div>
+                    </h3>
+
+
+                    <div class="mobile-only home-content__btn-wrap">
+                        <a href="https://t.me/officialunilion" target="_blank" class="btn btn--primary home-content__btn">
+                            Presale
+                        </a>
+                        <a style="background-color: #FDC270 !important; border-color: #FDC270 !important;" href="https://unilion-resources.s3.ap-southeast-2.amazonaws.com/UniLion_Whitepaper_v1.pdf" target="_blank" class="btn btn--primary home-content__btn">
+                            View Whitepaper
+                        </a>
+                    </div>
+
+                    <div class="social-icons">
+                        <ul>
+                            <!-- <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100068564198300"><i
+                                        class="fa fa-facebook"></i></a></li> -->
+                            <li> <a target="_blank" href="https://twitter.com/OfficialUniLion"><i
+                                        class="fa fa-twitter"></i></a></li>
+                            <li> <a target="_blank" href="https://t.me/officialunilion"><i class="fa fa-paper-plane"></i></a></li>
+                            <li> <a target="_blank" href="https://github.com/UniLion-Token/Contract"><i
+                                        class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="home-content__right">
+                    <img src="images/platform/phone-desktop.png">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about
+    ================================================== -->
+    <div class="bg bg-blue">
+        <section id="about" class="s-about target-section">
+
+            <div class="row section-header" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 class="display-1 secondary">
+                        What is UniLion?
+                    </h1>
+                    <p class="lead secondary">
+                        UniLion ($LION) is a reflectionary DeFi token on the Binance Smart Chain.
+                        <br />
+                        $LION will be utilised on our community driven investment platform.
+                        <br />
+                        <br />
+                        With UniLion, holders can collectively Invest in NFTs & Other Assets -
+                        spreading risk & volatility, and maximising potential.
+                        <br />
+                        <br />
+                        Be part of the pride!
+                        <br />
+                        <br />
+                    </p>
+                </div>
+            </div> <!-- end section-header -->
+            <div class="row" data-aos="fade-up">
+                <p class="secondary" style="margin-bottom: 0px;">Contract Address</p>
+                <a href="" class="copy-click secondary" data-tooltip-text="Copy" data-tooltip-text-copied="✔ Copied">
+                    <!-- 0xA228257C5C9daCB07ff9997527e054bDfe7deE92 -->
+                    TBA
+                </a>
+            </div>
+
+        </section> <!-- end s-about -->
+    </div>
+
+    <section class="bg bg-gray">
+        <section id="about-how" class="s-about-how">
+
+            <div class="row">
+                <div class="col-full video-bg" data-aos="fade-up">
+
+                    <a class="btn-video"
+                        href="https://youtu.be/qzGQ7hRfgxs"
+                        data-lity>
+                        <span class="video-icon"></span>
+                    </a>
+
+                    <!-- <div class="stats">
+                        <div class="item-stats">
+                            <span class="item-stats__num">
+                                24K
+                            </span>
+                            <span class="item-stats__title">
+                                Positive Reviews
+                            </span>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="ecosystem" class="target-section">
+
+            <div class="row section-header" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 class="display-1 primary">
+                        UniLion Ecosystem
+                    </h1>
+                    <p class="lead gray">
+                        UniLion is built on an ecosystem where holders can participate collectively.
+                        The DAO will be used to govern this ecosystem, in order to maximise utility & usability.
+                        <br />
+                        <br />
+                        UniLion will be built by the community, for the community.
+                    </p>
+                </div>
+            </div> <!-- end section-header -->
+
+            <div class="row features block-1-3 block-m-1-2">
+
+                <div class="col-block item-feature box-shadow" data-aos="fade-up">
+                    <div class="item-feature__icon">
+                        <img class="token-img" src="images/mascot/token-2.png" />
+                    </div>
+                    <div class="item-feature__text ">
+                        <h3 class="item-title primary">UniLion</h3>
+                        <p class="gray">UniLion ($LION) is a reflectionary token powered by the Binance Smart Chain
+                            (BSC),
+                            which will be utilised in our community driven investment platform, LionPax.
+                            Holders will be able to vote, collect rewards for holding, and drive this community forward.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-block item-feature box-shadow" data-aos="fade-up">
+                    <div class="item-feature__icon">
+                        <img class="mascot-rocket" src="images/mascot/UniLion - Mascot-Rocket Transparent.png" />
+                    </div>
+                    <div class="item-feature__text">
+                        <h3 class="item-title primary">LionPax</h3>
+                        <p class="gray">
+                            LionPax is a one-stop platform for shared ownership investments.
+                            We aim to provide Users with transaction & asset management, DAO Voting, and social
+                            integrations.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-block item-feature box-shadow" data-aos="fade-up">
+                    <div class="item-feature__icon">
+                        <img class="pride-mascot" src="images/mascot/UniPride.png" />
+                    </div>
+                    <div class="item-feature__text">
+                        <h3 class="item-title primary">UniPride</h3>
+                        <p class="gray">
+                            By becoming a member of the UniPride, you will have voting rights to spearhead
+                            upcoming initiatives.
+                            UniPride members will also be rewarded from our Community Pool, which holds 8% of
+                            tokens.
+                            Be a part of the giveaways, airdrops, competitions, & more.
+                            But most importantly, have your say.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="platform" class="s-features target-section">
+
+            <div class="row section-header" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 class="display-1 primary">
+                        LionPax
+                        <br />
+                        <span class="secondary-title" style="font-size: smaller;">The UniLion Platform</span>
+                    </h1>
+                    <div class="item-feature__text">
+                        <p>We aim to bring the shared ownership philosophy to the market - for every asset class.
+                            By lowering the barrier of entry for pricey investments, we make all assets accessible to
+                            anyone.
+                            Whether it's a "First Ever Tweet" NFT, a 1st Edition Charizard, or even a house, we will
+                            have you covered.
+                        </p>
+                        <p>
+                            Leave it to us to manage, and get your share of something big.
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- end section-header -->
+
+            <div class="row features img-text-right">
+
+                <div class="col-block item-feature" data-aos="fade-left">
+                    <img src="images/platform/platform_main.png" data-aos="fade-left" />
+                </div>
+
+                <div class="col-block item-feature img-text-text invest-text" data-aos="fade-left">
+                    <h1 class="display-1 primary-sm">
+                        Invest Collectively
+                    </h1>
+                    <div class="item-feature__text">
+                        <p>
+                            UniLion's model will empower investors to participate in any investment, without having to fork out full funds for a stake upfront.
+                            <br />
+                            This will provide investors access to increased liquidity, and lowered risk exposure. 
+                            <br />
+                            <br />
+                            Diversify & add stability to your portfolio with UniLion.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- switch if desktop -->
+            <div class="row features img-text-left desktop">
+                <div class="col-block item-feature img-text-text nft-text" data-aos="fade-right">
+                    <h1 class="display-1 primary-sm">
+                        UniPride NFT Minting
+                    </h1>
+                    <div class="item-feature__text">
+                        <p>
+                            Every 3 days, community members can submit NFT proposals. This can be an image, song, 3D
+                            render
+                            - anything that can be represented digitally.
+                            <br />
+                            The submissions will be open for voting on our DAO platform.
+                            <br />
+                            The submission with the highest votes will be minted by UniLion, with the rights going to
+                            the submitter.
+                            The owner can decide to hold, sell on an open market, or sell back to UniPride.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-block item-feature" data-aos="fade-right">
+                    <img src="images/platform/platform_dao.png" data-aos="fade-right" />
+                </div>
+            </div>
+            <!-- switch if mobile -->
+            <div class="row features img-text-right mobile">
+                <div class="col-block item-feature" data-aos="fade-right">
+                    <img src="images/platform/platform_dao.png" data-aos="fade-right" />
+                </div>
+
+                <div class="col-block item-feature img-text-text nft-text" data-aos="fade-right">
+                    <h1 class="display-1 primary-sm">
+                        UniPride NFT Minting
+                    </h1>
+                    <div class="item-feature__text">
+                        <p>
+                            Every 3 days, community members can submit NFT proposals. This can be an image, music, 3D
+                            render
+                            - anything that can be represented digitally.
+                            <br />
+                            The submissions will be open for voting on our DAO platform.
+                            <br />
+                            The submission with the highest votes will be minted by UniLion, with the rights going to
+                            the submitter.
+                            The owner can decide to hold, sell on an open market, or sell back to UniPride.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row features img-text-right">
+
+                <div class="col-block item-feature" data-aos="fade-left">
+                    <img src="images/platform/platform_nft.png" data-aos="fade-left" />
+                </div>
+
+                <div class="col-block item-feature img-text-text social-text" data-aos="fade-left">
+                    <h1 class="display-1 primary-sm">
+                        Social & Community
+                    </h1>
+                    <div class="item-feature__text">
+                        <p>
+                            LionPax aims to promote transparency by displaying all assets held by the community.
+                            All assets & holders will be visible, with their share, the full purchase price, and current
+                            votes to sell.
+                            <br />
+                            The larger goal is to promoting visibility of holdings and the community to external
+                            entities.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> <!-- end s-features -->
+    </section>
+
+
+    <!-- lionomics
+    ================================================== -->
+    <section id="lionomics" class="s-about target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <img class="mascot-main" src="images/mascot/UniLion - Mascot-Laptop Transparent.png" />
+
+                <h1 class="display-1 secondary">
+                    Lionomics
+                </h1>
+
+                <p class="lead secondary">
+                    Reap benefits with static rewards after every transaction.
+                    With less than 10% buying tax, and the majority being re-distributed to holders,
+                    $LION prioritises rewarding existing holders.
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+        <div class="row section-header block-1-1 block-m-1-3">
+            <div class="row distribution">
+                <div class="col-md-4 col-sm-6 facts-box margin-bottom-30">
+                    <h2 class="fee-breakdown-figure primary" data-aos="fade-up">5%</h2>
+                    <span class="primary-important" data-aos="fade-up">REWARDS TO HOLDERS</span>
+                </div>
+
+                <div class="col-md-4 col-sm-6 facts-box margin-bottom-30 mid-col-tax">
+                    <h2 class="fee-breakdown-figure primary" data-aos="fade-up">2%</h2>
+                    <span class="primary-important" data-aos="fade-up">MARKETING TAX</span>
+                </div>
+
+                <div class="col-md-4 col-sm-6 facts-box margin-bottom-30">
+                    <h2 class="fee-breakdown-figure primary" data-aos="fade-up">2%</h2>
+                    <span class="primary-important" data-aos="fade-up">LIQUIDITY TAX</span>
+                </div>
+
+                <br />
+                <br />
+            </div>
+        </div>
+
+        <div class="row process-wrap">
+
+            <div class="row features block-1-2 block-m-1-2 secondary img-text-text">
+
+                <div class="col-block item-feature" data-aos="fade-up">
+                    <div class="item-feature__text box-shadow box-shadow-1">
+                        <h3 class="item-title secondary">Initial Liquidity Offering</h3>
+                        <p>UniLion has partnered with PinkSale to crowdfund liquidity.
+                            <br />
+                            <br />
+                            Early investors will be rewarded with a discounted price per $LION.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-block item-feature" data-aos="fade-up">
+                    <div class="item-feature__text box-shadow box-shadow-2">
+                        <h3 class="item-title secondary">Increasing Investor Value</h3>
+                        <p>In order to increase early investor value, we will be offering a portion of funds from our
+                            Community pool to all pre-sale participants.
+                            <br />
+                            <br />
+                            Look out for merchandise, VIP telegram invitations, and drops for early birds.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-block item-feature" data-aos="fade-up">
+                    <div class="item-feature__text box-shadow box-shadow-3">
+                        <h3 class="item-title primary">The Fun Stuff</h3>
+                        <p class="primary">
+                            <strong>Total Supply:</strong> 10,000,000,000 $LION
+                            <br />
+                            <strong>Pre-Sale Allocation:</strong> 4,500,000,000 $LION
+                            <br />
+                            <strong>Cap:</strong> TBA
+                            <br />
+                            <strong>Locked Liquidity:</strong> 80%
+                            <br />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-block item-feature" data-aos="fade-up">
+                    <div class="item-feature__text box-shadow box-shadow-4">
+                        <h3 class="item-title secondary">Presale Date</h3>
+                        <!-- Uncomment when presale begins -->
+                        <!-- <p>
+                            <strong>Start Date:</strong> 22 September 2021
+                            <br />
+                            <strong>End Date:</strong> 25 September 2021
+                            <br />
+                        </p>
+                        <div class="home-content__btn-wrap">
+                            <a href="https://t.me/officialunilion" class="white-btn btn btn--primary home-content__btn"
+                                data-aos="fade-up">
+                                Presale
+                            </a>
+                        </div> -->
+
+                        <!-- Remove once presale ends -->
+                        <p>
+                            Don't want to miss out our presale? 
+                            <br/>
+                            Join our Telegram Group to be the first in line.
+                        </p>
+                        <div class="home-content__btn-wrap">
+                            <a href="https://t.me/officialunilion" target="_blank" class="white-btn btn btn--primary home-content__btn"
+                                data-aos="fade-up">
+                                Join Telegram <i class="fa fa-paper-plane" style="font-size: medium;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end features -->
+        </div> <!-- end about-how -->
+
+    </section> <!-- end s-about -->
+
+    <!-- roadmap -->
+    <div class="bg-gray">
+        <section id="roadmap" class="target-section">
+
+            <div class="row section-header" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 class="display-1 primary">
+                        Roadmap
+                    </h1>
+                </div>
+            </div> <!-- end section-header -->
+
+            <div class="row features block-1-3">
+
+                <div class="col-block item-feature box-shadow img-text-text" style="text-align: left !important;"
+                    data-aos="fade-up">
+                    <div class="item-feature__text">
+                        <h3 class="item-title primary">Q3 <span style="font-size: 20px;">2021</span></h3>
+                        <img src="images/mascot/tick.png" />
+                        Launch Social Media
+                        <br />
+                        <img src="images/mascot/tick.png" />
+                        Launch Website
+                        <br />
+                        <img src="images/mascot/tick.png" />
+                        WhitePaper v1
+                        <br />
+                        <img src="images/mascot/tick.png" />
+                        Deploy Contract
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        ILO PinkSale Presale
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        Launch LionPax
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        CoinGecko & CMC Listing
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        DAO Voting
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-block item-feature box-shadow img-text-text" style="text-align: left !important;"
+                    data-aos="fade-up">
+                    <div class="item-feature__text">
+                        <h3 class="item-title primary">Q4 <span style="font-size: 20px;">2021</span></h3>
+                        <img src="images/mascot/Vector.png" />
+                        CEX Listing
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        UniLion Cards
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        Partnerships
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        Public Airdrops
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        Extend Asset Offering
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        WhitePaper v2
+                    </div>
+                </div>
+
+                <div class="col-block item-feature box-shadow img-text-text" style="text-align: left !important;"
+                    data-aos="fade-up">
+                    <div class="item-feature__text">
+                        <h3 class="item-title primary">Beyond</h3>
+                        <img src="images/mascot/Vector.png" />
+                        LionPax NFT
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        LionPax Social
+                        <br />
+                        <img src="images/mascot/Vector.png" />
+                        Community Driven Ideas
+                    </div>
+                </div>
+            </div>
+
+        </section> <!-- end s-about -->
+
+        <!-- partners
+        ================================================== -->
+        <section id="partners" class="target-section">
+
+            <div class="row block-1-3 logos features" data-aos="fade-up">
+                <div class="col-block item-feature">
+                    <img src="images/partners/coinbase.png" />
+                </div>
+                <div class="col-block item-feature">
+                    <img src="images/partners/pancakeswap.png" />
+                </div>
+                <div class="col-block item-feature">
+                    <img src="images/partners/coingecko.png" />
+                </div>
+            </div>
+            <div class="row block-1-3 logos features last-row" data-aos="fade-up">
+                <div class="col-block item-feature">
+                    <img src="images/partners/coingmarketcap.png" />
+                </div>
+                <div class="col-block item-feature">
+                    <img src="images/partners/pinksale.png" />
+                </div>
+                <div class="col-block item-feature">
+                    <img src="images/partners/BscScan-logo.svg" />
+                </div>
+            </div>
+
+            <div class="row download-bottom-image" data-aos="fade-up">
+                <img src="images/platform/laptop.png" sizes="(max-width: 2800px) 100vw, 2800px" alt="App Screenshots">
+            </div>
+        </section> <!-- end s-pricing -->
+    </div>
+
+
+
+    <!-- footer
+    ================================================== -->
+    <footer id="footer" class="s-footer footer">
+
+        <div class="row footer__bottom">
+
+            <div class="footer__about col-five tab-full left">
+
+                <h4>Keep up to Date</h4>
+                <p>Follow us to hear about the latest news, drops, asset holdings, & more.</p>
+                <ul class="footer__social">
+                    <!-- <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100068564198300"><i
+                                class="fa fa-facebook"></i></a></li> -->
+                    <li><a target="_blank" href="https://twitter.com/OfficialUniLion"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a target="_blank" href="https://t.me/officialunilion"><i class="fa fa-paper-plane"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/UniLion-Token/Contract"><i
+                                class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-five md-seven tab-full right end">
+                <div class="row">
+
+                    <div class="footer__site-links col-five mob-full">
+                        <h4>Site links.</h4>
+
+                        <ul class="footer__site-links">
+                            <li><a class="smoothscroll" href="#top" title="intro">Home</a></li>
+                            <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                            <li><a class="smoothscroll" href="#ecosystem" title="ecosystem">Ecosystem</a></li>
+                            <li><a class="smoothscroll" href="#platform" title="lionpax">LionPax</a></li>
+                            <li><a class="smoothscroll" href="#lionomics" title="lionomics">Lionomics</a></li>
+                            <li><a class="smoothscroll" href="#roadmap" title="roadmap">Roadmap</a></li>
+                            <li><a class="smoothscroll" href="#partners" title="partners">Partners</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__contact col-seven mob-full">
+                        <h4>Contact Us.</h4>
+                        Need help or have a question? Contact us at:
+                        <br />
+                        <a href="mailto:#0" class="footer__mail-link" style="color: #49C5CD">support@unilion.io</a>
+                        <br />
+                        or via any social link.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-full ss-copyright">
+                <span>&copy; Copyright UniLion 2021</span>
+                <span>For the Community</a></span>
+            </div>
+
+        </div> <!-- end footer__bottom -->
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-</head>
-
-<body id="about" style="text-align:center;">
-    <div class="row section-header" style="text-align:center;">
-        <img class="mascot-main" src="images/mascot/UniLion - Mascot Transparent.png" />
-    </div>
-
-    <span class="main-title" >
-        <h1 class="secondary" style="font-size: 6rem; margin-top: 20px !important;">
-            <span class="secondary-title">Meet</span>
-            UniLion
-        </h1>
-    </span>
-
-    <h3 class="secondary" style="font-size: 2rem; margin-top: 20px;">
-        <div style="font-weight: 900; font-size: 2rem;">The Shared Ownership Model</div>
-    </h3>
-
-    <br/>
-    <br/>
-    <br/>
-    <!-- uncomment when presale time is set -->
-    <!-- <div class="row">
-        <div id="countdown"></div>
-    </div> -->
-    <span class="main-title" >
-        <h1 class="secondary" style="font-size: 2.5rem; margin-top: 20px !important;">
-            <span class="secondary-title">Stay tuned for presale date. <br/>Join our telegram to be first in line.</span>
-        </h1>
-    </span>
-    <div class="social-icons">
-        <ul>
-            <li> <a target="_blank" href="https://t.me/officialunilion"><i class="fa fa-paper-plane" style="color:white"></i></a></li>
-        </ul>
-    </div>
 </body>
-
-
-
-</html>

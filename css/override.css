@@ -15,10 +15,32 @@ section {
 .home-content .home-content__main {
     text-align: center !important;
 }
+#home.mobile .home-content__main {
+    padding-bottom: 100px !important;
+}
+
+.header-nav-wrap:not(.mobile) .header-cta__btn {
+    height: 4.2rem !important;
+    line-height: 3.8rem !important;
+}
 
 /* #home:not(.mobile) .home-content {
     padding-top: 200px !important;
 }  */
+#home:not(.mobile) .home-content__btn-wrap {
+    display: none !important;
+}
+#home .social-icons {
+    margin-top: 55px !important;
+    margin-bottom: 50px;
+}
+#home.mobile .social-icons {
+    margin-top: 25px !important;
+}
+
+#home.mobile .home-content__right {
+    display: none !important;
+}
 #home:not(.mobile) .home-content__right {
     width: 80% !important;
     right: -180px !important;
@@ -33,6 +55,15 @@ section {
 #home:not(.mobile) .home-content__main {
     padding-bottom: 40px !important;
 }
+
+#home:not(.mobile) .mobile-view {
+    display: none !important;
+}
+
+#home.mobile .desktop-view {
+    display: none !important;
+}
+
 .home-content {
     padding-top: 150px !important;
 }
@@ -42,7 +73,7 @@ section {
 }
 
 .mascot-main {
-    width: 45%;
+    width: 55%;
 }
 
 .home-content h3 {
@@ -204,6 +235,17 @@ section {
     padding: 5% !important;
 }
 
+#ecosystem.mobile .col-block.item-feature {
+    height: 680px !important;
+}
+
+#lionomics.mobile .facts-box {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 
 #partners .logos {
     padding-top: 50px !important;
@@ -275,6 +317,7 @@ section {
 
 #roadmap.mobile .col-block {
     width: 100% !important;
+    height: 450px !important;
 }
 #roadmap.mobile .col-block:nth-child(1) {
     margin-right: auto !important;
@@ -284,22 +327,40 @@ section {
 }
 
 .video-bg {
-  background-image: url(../gifs/product.gif) !important;
-  padding-bottom: 900px !important;
+  background-image: url(../images/mascot/video-bg.jpg) !important;
+  padding-bottom: 600px !important;
+  background-size: 80% !important;
 }
 
-.video-bg:not(.mobile) {
-    padding-bottom: 900px !important;
+.video-bg.mobile {
+    background-image: url(../images/mascot/video-sm.jpg) !important;
+    background-size: cover !important;
 }
 
-  
+#about-how .mobile .video-icon {
+    margin-left: 85px !important;
+    margin-top: 230px !important;
+    height: 70px !important;
+    width: 70px !important;
+}
+
+.btn-video {
+    top: 10% !important;
+    left: 15% !important;
+}
+
+#home.mobile .desktop-view {
+    display: none;
+}
+#home.mobile .shared-ownership {
+    font-weight: 600 !important;
+}
+#home:not(.mobile) .mobile-view {
+    display: none;
+}
+
 #about, #lionomics, #footer  {
   background-image: url(../images/background/blue_bg.jpg) !important;
-  background-repeat: repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
 }
 
 .bg-gray {
@@ -327,6 +388,21 @@ header, #home {
 }
 #filler.mobile .mascot {
     width: 40% !important;
+}
+
+.s-header .header-nav-wrap.mobile .header-whitepaper-btn {
+    background-color: #FDC270 !important;
+    border-color: #FDC270 !important;
+    margin-bottom: 20px !important;
+}
+
+.s-header .header-nav-wrap .header-whitepaper-btn {
+    background-color: #FDC270 !important;
+    border-color: #FDC270 !important;
+}
+.s-header .header-nav-wrap .header-whitepaper-btn:hover {
+    background-color: #49C5CD !important;
+    border-color: #49C5CD !important;
 }
 
 .s-header.sticky .header-nav-wrap.mobile .header-main-nav li a {
@@ -404,3 +480,11 @@ p.lead {
     padding-top: 0 !important;
 }
 
+.white-btn {
+    background: white !important;
+    border-color: white !important;
+}
+.white-btn:hover {
+    background: #49C5CD !important;
+    border-color: #49C5CD !important;
+}
