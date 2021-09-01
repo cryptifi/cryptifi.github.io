@@ -72,6 +72,10 @@ section {
     font-weight: 100 !important;
 }
 
+#lionomics:not(.mobile) .mascot-main {
+    width: 25%;
+}
+
 .mascot-main {
     width: 55%;
 }
