@@ -210,7 +210,7 @@ p.lead {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   p.lead {
     font-size: 2.4rem;
   }
@@ -1499,7 +1499,7 @@ input::-moz-focus-inner {
  * ## section header
  * ------------------------------------------------------------------- */
 .section-header {
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 .section-header.has-bottom-sep {
@@ -1607,7 +1607,7 @@ input::-moz-focus-inner {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .display-1 {
     font-size: 4.4rem;
   }
@@ -1932,7 +1932,7 @@ input::-moz-focus-inner {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .s-header {
     background: #092967;
     position: fixed;
@@ -2025,12 +2025,12 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * make sure the menu is visible on larger screens
  * ------------------------------------------------------------------- */
-@media only screen and (min-width:801px) {
+/* @media only screen and (min-width:801px) {
   .header-nav-wrap {
     display: block !important;
   }
 
-}
+} */
 
 
 
@@ -2508,7 +2508,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .home-content h1 {
     font-size: 5rem;
   }
@@ -2701,7 +2701,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .s-about {
     padding-top: 16rem;
   }
@@ -2973,7 +2973,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1100px) {
   .process {
-    max-width: 800px;
+    max-width: 1200px;
   }
 
 }
@@ -3039,7 +3039,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .process {
     left: 0;
   }
@@ -3204,7 +3204,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .s-features {
     padding-top: 16rem;
     padding-bottom: 16rem;
@@ -3520,7 +3520,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .plans {
-    max-width: 800px;
+    max-width: 1200px;
   }
 
 }
@@ -3533,7 +3533,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .s-pricing {
     padding-top: 16rem;
     padding-bottom: 14.8rem;
@@ -3660,7 +3660,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .s-download {
     padding-top: 16rem;
   }
@@ -4005,7 +4005,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
   .s-footer {
     padding-top: 14.8rem;
   }

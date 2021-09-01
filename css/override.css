@@ -240,7 +240,8 @@ section {
 }
 
 #ecosystem.mobile .col-block.item-feature {
-    height: 680px !important;
+    min-height: 680px !important;
+    height: 100% !important;
 }
 
 #lionomics.mobile .facts-box {
