@@ -31,8 +31,8 @@ section {
     display: none !important;
 }
 #home .social-icons {
-    margin-top: 55px !important;
-    margin-bottom: 50px;
+    margin-top: 30px !important;
+    margin-bottom: 30px;
 }
 #home.mobile .social-icons {
     margin-top: 25px !important;
@@ -62,6 +62,10 @@ section {
 
 #home.mobile .desktop-view {
     display: none !important;
+}
+
+#home.mobile .assure-tag {
+    margin-top: 60px;
 }
 
 .home-content {
