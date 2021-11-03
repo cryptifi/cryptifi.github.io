@@ -53,7 +53,11 @@ section {
     padding-top: 0 !important;
 }
 #home:not(.mobile) .home-content__main {
-    padding-bottom: 40px !important;
+    padding-top: 200px !important;
+}
+
+#ecosystem .item-feature__text  {
+    margin-top: 100px !important;   
 }
 
 #home:not(.mobile) .mobile-view {
@@ -142,7 +146,6 @@ section {
 }
 
 #lionomics {
-    padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
 
